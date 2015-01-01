@@ -16,13 +16,13 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', getenv('OPENSHIFT_APP_NAME'));
+define('DB_NAME', getenv('implantar'));
 
 /** MySQL database username */
-define('DB_USER', getenv('OPENSHIFT_MYSQL_DB_USERNAME'));
+define('DB_USER', getenv('adminKMAUlkW'));
 
 /** MySQL database password */
-define('DB_PASSWORD', getenv('OPENSHIFT_MYSQL_DB_PASSWORD'));
+define('DB_PASSWORD', getenv('3cvSb-1Fz87m'));
 
 /** MySQL hostname */
 define('DB_HOST', getenv('OPENSHIFT_MYSQL_DB_HOST') . ':' . getenv('OPENSHIFT_MYSQL_DB_PORT'));
